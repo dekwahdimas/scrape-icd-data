@@ -1,8 +1,7 @@
 
-# Scrape ICD Data
+# Scrape International Classification of Diseases (ICD) Data
 
 This repository contains Python scripts to scrape [ICD Data](https://www.icd10data.com/ICD10CM/Codes) using requests and bs4 libraries. 
-
 
 ## Installation
 
@@ -12,17 +11,20 @@ You may run the project locally with these steps.
 ```bash
   git clone https://github.com/dekwahdimas/scrape-icd-data.git
 ```
-1. Install Python dependencies.
+
+2. Install Python dependencies.
 ```bash
   python -m pip install -r requirements.txt
 ```
 
-1. Run ```parse.py```.
+3. Run all parse files sequentially.
 ```bash
-  python parse.py
+  python parse_1st.py
+  python parse_2nd.py
+  python parse_3rd.py
 ```
 
-1. Open the generated CSV file.
+4. Open the generated CSV file.
 
 
 ## License
