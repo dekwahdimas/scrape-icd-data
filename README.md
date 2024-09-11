@@ -17,14 +17,12 @@ You may run the project locally with these steps.
   python -m pip install -r requirements.txt
 ```
 
-3. Run all parse files sequentially.
+3. Run the scraping file.
 ```bash
-  python parse_1st.py
-  python parse_2nd.py
-  python parse_3rd.py
+  python full_parse.py
 ```
 
-4. Open the generated CSV file.
+4. Open and analyze the generated CSV file.
 
 
 ## License
